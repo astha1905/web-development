@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redshop</title>
+    <link rel="stylesheet" href="ecommerce.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .offer{
+        background:none;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+
+        <div class="navbar background ">
+        <div class="logo" >
+            <a href="ecommerce.html"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI1eqOVacMkibhl000ZGO9uun3w1YJM182Yw&usqp=CAU"
+                width="100px" alt="logo"></a>
+                
+            </div>
+         <nav>
+            <ul id="menuitems">
+                
+    
+                    <li class="items"><a href="ecommerce.html">Home </a></li>
+                    <!-- <li class="items"><a href="">About</a></li> -->
+                    <li class="items"><a href="categories.html">Products</a></li>
+                    <!-- <li class="items"><a href=""> Contact </a></li> -->
+                    <li class="items"><a href="contact.html"> Account</a></li>
+                    
+                
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="image/Cart-icon.jpg" alt="cart" width="40px"
+            height="35px"></a>
+        <div class="menuicon">
+
+            <img src="image/menuicon.png" width="40px"height="35px" onclick="menutoggle()">
+
+        </div>
+    </div>
+       
+    </div>
+</div>
+
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col1">
+               <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSGDrE5AvF2qkXbkpalQJCqJdKxIXfQZVNeHYWv1whk4BHctMok9_qpYMMk9g6mH6PBAlc6HQ8B6D4&usqp=CAc">
+            <!-- </div>
+            <div class="col1"> -->
+                <p class="textsmall">Exclusively available on Redshop</p>
+                <h2>Smart Band 5</h2>
+                
+        <small>
+            Mi Smart Band 5 – India’s No. 1 Fitness Band, 1.1-inch AMOLED Color Display, Magnetic Charging, 2 Weeks Battery Life, Personal Activity Intelligence (PAI), Women’s Health Tracking
+        </small><br>
+        <button class="btnnew">Buy Now &#10142;</button>
+    </div>
+        </div>
+    </div>
+</div>
+<!-- -------brands-------- -->
+
+<!-- -----footer------ -->
+<div class="footer">
+    <div class="container1">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download app for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="image/playstorelogo.png">
+                    <img src="image/appstorelogo.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV2S8An7AFs5kWYAMxf7NtAbTuIl3ny1gHDA&usqp=CAU">
+
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupens</li>
+                    <li>Blogs</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+                
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us </h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>Copyright 2021-Astha Dhakar</p>
+        </div>
+    </div>
+</div>
+ <script>
+     var menuitems=document.getElementById("menuitems");
+     menuitems.style.maxHeight="0px";
+     function menutoggle()
+     {
+         if(menuitems.style.maxHeight=="0px")
+         {
+             menuitems.style.maxHeight="200px";
+         }
+         else{
+             menuitems.style.maxHeight="0px";
+
+         }
+     }
+ </script>
+    </body>
+</html>
